@@ -28,6 +28,10 @@
   ],
   "rewrites": [
     {
+      "source": "/",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/"
+    },
+    {
       "source": "/:path*",
       "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/:path*"
     }
