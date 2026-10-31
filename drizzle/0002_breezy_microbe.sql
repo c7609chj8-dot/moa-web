@@ -1,0 +1,1 @@
+ALTER TABLE `site_settings` ADD `instructors_json` text DEFAULT '[]' NOT NULL;

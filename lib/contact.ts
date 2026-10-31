@@ -1,0 +1,1 @@
+export const SMS_RECIPIENT = "01072592558";
