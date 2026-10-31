@@ -1,0 +1,35 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/admin/:path*",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/admin/:path*",
+      "permanent": false
+    },
+    {
+      "source": "/signin-with-chatgpt",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/signin-with-chatgpt",
+      "permanent": false
+    },
+    {
+      "source": "/signout-with-chatgpt",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/signout-with-chatgpt",
+      "permanent": false
+    },
+    {
+      "source": "/callback",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/callback",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://korea-safety-education.c7609chj8.chatgpt.site/:path*"
+    }
+  ]
+}
